@@ -1,9 +1,39 @@
 /* Inheritance */
 body {
-  color: red;
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.4);
+  color: cyan;
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0.9);
+  word-wrap: normal;
+  word-spacing: 12px;
+  font-family: Arial;
+  letter-spacing: 10px;
 }
-div {
-  color: blue;
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+th,
+td {
+  padding: 15px;
+}
+table {
+  width: 25%;
+  float: left;
+  border: 3px dotted cyan;
+  background-color: steelblue;
+}
+* {
+  box-sizing: border-box;
+}
+#rightP {
+  width: 75%;
+  float: right;
+}
+header {
+  border: 1px solid red;
+  padding: 15px;
+}
+a {
+  color: cyan;
 }
